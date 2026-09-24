@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inabakumori / Music Player</title>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    
+<div class="wrapper">
+    <header> 
+        <button class="hdbtn" id="reset-btn">
+            <i class="fi fi-sr-arrow-small-left"></i>
+        </button>
+        <h3 class="p-now">Playing Now</h3>
+        <button class="hdbtn" id="more-music">
+            <i class="fi fi-sr-list"></i>
+        </button>
+    </header>
+
+    <div class="player">
+        <div class="img-area">
+            <img src="Inba.webp" alt="">
+        </div>
+        <div class="song-details">
+            <h1 class="name">SongName</h1>
+            <h3 class="artist">Artist</h3>
+        </div>
+
+        <div class="audioC">
+            <div class="song-timer">
+                <span class="current-time">0:00</span>
+                <span class="max-duration">0:00</span>
+            </div>
+            <div class="progress-area">
+                <div class="progress-bar">
+                    <audio id="main-audio" src="Assets/Songs/1. Anticyclone.mp3"></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btnC" id="prev">
+                <i class="fi fi-sr-rewind"></i>
+            </button>
+            <button class="play-pause btnC">
+                <i class="fi fi-sr-play play"></i>
+            </button>
+            <button class="btnC" id="next">
+                <i class="fi fi-sr-forward"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div class="music-list">
+        <div class="header">
+            <div class="row">
+                <i class="fi fi-sr-list"></i>
+                <span>Music list</span>
+            </div>
+            <i id="close" class="fi fi-sr-cross"></i>
+        </div>
+        <ul>
+           
+        </ul>
+    </div>
+</div>
+
+<script src="Assets/js/music-list.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
