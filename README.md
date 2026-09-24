@@ -18,6 +18,12 @@ The website is inspired by "Animation Coding"'s Neumorphism Music player tutoria
 
 Anybody is free to use, change & customize the music player in any way their like in their own public/private projects.
 
+## How to Download & Run Locally
+
+1. Click the green **`<> Code`** button at the top right of the repository
+2. Select **Download ZIP** and extract the folder on your file explorer
+3. Open `index.html` in any modern web browser and its good to go
+
 Features
 --------
 • Liquid-glass / Neumorphism visual aesthetic with custom backdrop filters
