@@ -13,7 +13,7 @@ to read the code.
 
 The theme and aesthetic is centered around the artist/music producer Inabakumori (いなばくもり).
 
-The website is inspired by "Animation Coding"'s Neumorphism Music player tutorial.
+This project is inspired by "Animation Coding"'s Neumorphism Music player tutorial.
 (https://youtu.be/z5x14F_jZzs?si=3I3F4lHvLnFoH0cU)
 
 Anybody is free to use, change & customize the music player in any way their like in their own public/private projects.
