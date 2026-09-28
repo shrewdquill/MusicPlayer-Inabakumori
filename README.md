@@ -3,6 +3,8 @@ Inabakumori Music Player UI
 
 An interactive music player built using vanilla HTML, CSS, and JavaScript as practice project.
 
+(Sept.28: I'm aware of the bug that the music playlist drawer is displaying the wrong max song duration for each song, but I'm currently working on a separate project so I'll try to make time for fixing the bug later)
+
 About
 -----
 
