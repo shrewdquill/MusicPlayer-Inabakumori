@@ -28,14 +28,14 @@ const wrapper = document.querySelector(".wrapper"),
             }
 
             function playMusic(){
-                wrapper.classList.add("paused")
+                wrapper.classList.add("paused");
                 musicImg.classList.add('rotate');
                 playPauseBtn.innerHTML = `<i class="fi fi-sr-pause"></i>`;
                 mainAudio.play();
             }
 
             function pauseMusic(){
-                wrapper.classList.remove("paused")
+                wrapper.classList.remove("paused");
                 musicImg.classList.remove('rotate');
                 playPauseBtn.innerHTML = `<i class="fi fi-sr-play"></i>`;
                 mainAudio.pause();
